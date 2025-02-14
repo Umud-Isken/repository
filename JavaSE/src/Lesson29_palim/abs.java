@@ -1,5 +1,7 @@
 package Lesson29_palim;
 
-public class abs {
-
+public interface abs {
+	void start();
+	void stop();
+	
 }
