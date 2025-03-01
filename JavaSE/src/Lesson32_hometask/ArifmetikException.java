@@ -6,7 +6,7 @@ public class ArifmetikException {
 			int num1 = 10;
 			int numResult = num1 / 0;
 		} catch (ArithmeticException e) {
-			System.out.println("На 0 делать нельзя");
+			System.err.println("На 0 делать нельзя");
 		}
 	}
 }

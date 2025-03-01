@@ -6,7 +6,7 @@ public class NullPointException {
 			String string = null;
 			System.out.println(string.length());
 		} catch (NullPointerException e) {
-			System.out.println("string is null");
+			System.err.println("string is null");
 		}
 	}
 }
