@@ -5,7 +5,7 @@ public class Finaaly {
 		try {
 			int num = 10;
 			int result = num / 0;
-		} catch (Exception e) {
+		} catch (ArithmeticException e) {
 //			System.err.println("You musn't devide number to zerro");
 			System.err.println(e.getMessage());
 		}finally {
