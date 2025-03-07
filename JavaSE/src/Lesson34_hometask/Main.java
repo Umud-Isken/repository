@@ -5,7 +5,7 @@ public class Main {
         UserService userService = new UserService();
 
         try {
-            userService.findUser("user123");
+            userService.findUser("admin");
         } catch (UserNotFoundException e) {
             System.out.println("Ошибка: " + e.getMessage());
         }
