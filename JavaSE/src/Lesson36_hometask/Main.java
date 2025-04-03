@@ -8,7 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scanner= new Scanner(System.in);
 		List<String> strings =new ArrayList<String>();
-		strings.add(scanner.next());
+		strings.add(scanner.nextLine());
 		System.out.println(strings);
 	}
 }
