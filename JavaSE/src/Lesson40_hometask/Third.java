@@ -9,4 +9,9 @@ public class Third {
 		Consumer<String> printUpperCase = str -> System.out.println(str.toUpperCase());
 		strings.forEach(printUpperCase);
 	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
 }
